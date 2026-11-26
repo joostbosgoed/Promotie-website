@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!--
+  ============================================================
+  index.html - Voorpagina van de Promotie-website
+  ============================================================
+  Dit is de hoofdpagina (homepage) van de informatiewebsite.
+  Alle styling staat in een apart bestand: ../css/style.css
+  Zo blijven HTML (structuur) en CSS (presentatie) gescheiden.
+  ============================================================
+-->
+<html lang="nl">
+<head>
+  <!-- Basisinformatie over de pagina -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welkom op de informatiepagina van de Promotie-website. Ontdek informatie over de aankomende game Kirby and the World Beyond, onze diensten, nieuws en contactinformatie.">
+
+  <!-- Titel die in de browser-tabblad wordt weergegeven -->
+  <title>Home | Promotie-website</title>
+
+  <!-- Koppeling naar het externe CSS-bestand (geen inline styles!) -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <!-- ========================================================
+       HEADER: bevat het logo en de navigatiemenu
+       ======================================================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <!-- Logo / sitenaam -->
+      <img src="../images/logo.png" alt="logo kirby and the world beyond" class="img-header">
+
+      <!-- Navigatiemenu -->
+      <nav class="main-nav" aria-label="Hoofdnavigatie">
+        <ul>
+          <li><a href="voorpagina.html" class="active">Home</a></li>
+          <li><a href="#placeholder">informatie</a></li>
+          <li><a href="#placeholder">media</a></li>
+          <li><a href="#placeholder">veel gestelde vragen</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ========================================================
+       HERO: de grote introductiesectie bovenaan de pagina
+       ======================================================== -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+
+      <!-- Tekstgedeelte van de hero -->
+      <div class="hero-text">
+        <p class="hero-kicker">Welkom bij ons</p>
+        <h1>Alles wat je wilt weten, <span>op één plek.</span></h1>
+        <p class="hero-description">
+          Op deze informatiepagina vind je alles over de aankomende game
+          Kirby and the World Beyond, onze diensten en het laatste nieuws.
+          Neem gerust een kijkje en ontdek wat wij voor jou kunnen betekenen.
+        </p>
+
+      </div>
+
+      <!-- Visueel gedeelte van de hero (CSS-gradiënt i.p.v. afbeelding) -->
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-card">
+          <span class="hero-card-icon">&#128161;</span>
+          <p>Informatie &amp; inspiratie</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       OVER ONS: korte introductie van de website
+       ======================================================== -->
+  <section id="over-ons" class="section">
+    <div class="container">
+
+      <!-- Sectiekop -->
+      <div class="section-heading">
+        <h2>Over ons</h2>
+        <p>Een korte kennismaking met wie we zijn en waar we voor staan.</p>
+      </div>
+
+      <!-- Twee kolommen: tekst en statistieken -->
+      <div class="about-grid">
+
+        <div class="about-text">
+          <h3>Wij maken informatie toegankelijk</h3>
+          <p>
+            Op deze website vind je alles wat je moet weten over de aankomde game 
+            <strong>Kirby and the World Beyond</strong>
+          </p>
+          <p>
+            Ons team van enthousiaste gamers en schrijvers zet zich in om de
+            meest relevante informatie te verzamelen en op een overzichtelijke
+            manier te presenteren. Zo hoef jij niet eindeloos te zoeken naar
+            betrouwbare bronnen.
+          </p>
+        </div>
+
+        <!-- Statistieken in kaarten -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-number">1-</span>
+            <span class="stat-label">Jaar ervaring</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">2</span>
+            <span class="stat-label">Tevreden bezoekers</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">24/7</span>
+            <span class="stat-label">Online bereikbaar</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Betrokken team</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       KIRBY: informatie over de nog niet verschenen game
+       Kirby and the World Beyond
+       ======================================================== -->
+  <section id="kirby" class="section section-alt">
+    <div class="container">
+
+      <!-- Sectiekop -->
+      <div class="section-heading">
+        <h2>Kirby and the World Beyond</h2>
+        <p>Een gloednieuw 3D-avontuur dat in het voorjaar van 2027 verschijnt.</p>
+      </div>
+
+      <!-- Twee kolommen: beschrijving en feitenlijst -->
+      <div class="game-grid">
+
+        <!-- Algemene informatie over de game -->
+        <div class="game-info">
+          <h3>Over de game</h3>
+          <p>
+            <strong>Kirby and the World Beyond</strong> is een aankomende
+            3D-platformgame van HAL Laboratory, uitgegeven door Nintendo. De game
+            werd op <strong>9 september 2026</strong> aangekondigd tijdens een
+            Nintendo Direct en komt in het <strong>voorjaar van 2027</strong>
+            exclusief uit voor de Nintendo Switch 2.
+          </p>
+          <p>
+            Kirby kan een uitgestrekte 3D-wereld vrij verkennen met zijn
+            <strong>Copy Abilities</strong>. De krachten worden niet alleen voor
+            gevechten gebruikt, maar ook om verder te komen: met bommen omhoog
+            schieten, het zwaard in bomen steken om te klimmen of met de Cutter
+            razendsnel afstanden afleggen.
+          </p>
+          <p>
+            In het verhaal redt Kirby een mysterieus meisje met bijzondere
+            krachten uit de handen van King Dedede. Nadat Kirby Dedede de lucht in
+            slingert, ontstaat er een gat en stuit hij op een enorme muur. Wat
+            schuilt erachter? Die vraag staat centraal in het avontuur.
+          </p>
+          <p>
+            Het is de veertiende hoofdgame uit de Kirby-reeks en de tweede
+            volledig 3D-Kirbygame, na <em>Kirby and the Forgotten Land</em>. De
+            release valt samen met het 35-jarig bestaan van de serie.
+          </p>
+        </div>
+
+        <!-- Feiten over de game in een overzichtelijke lijst -->
+        <div class="game-facts">
+          <h3>Gegevens</h3>
+          <ul class="fact-list">
+            <li><strong>Ontwikkelaar:</strong> HAL Laboratory</li>
+            <li><strong>Uitgever:</strong> Nintendo</li>
+            <li><strong>Release:</strong> Voorjaar 2027</li>
+            <li><strong>Platform:</strong> Nintendo Switch 2</li>
+            <li><strong>Genre:</strong> Actie / avontuur (3D)</li>
+            <li><strong>Spelers:</strong> Nog niet bekendgemaakt</li>
+            <li><strong>Aangekondigd:</strong> 9 september 2026</li>
+            <li><strong>Japanse titel:</strong> 星のカービィ ワールドビヨンド</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Kaarten met de belangrijkste kenmerken -->
+      <div class="card-grid game-features">
+
+        <article class="info-card">
+          <div class="card-icon">&#127757;</div>
+          <h3>Vrij verkennen</h3>
+          <p>Reis door een uitgestrekte 3D-wereld, van groene weilanden tot hoge rotsen.</p>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon">&#9876;</div>
+          <h3>Copy Abilities</h3>
+          <p>Gebruik krachten zoals Zwaard en Cutter om te klimmen, te snijden en te reizen.</p>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon">&#129504;</div>
+          <h3>De mysterieuze muur</h3>
+          <p>Achter de reusachtige muur wacht een onbekende wereld vol raadsels.</p>
+        </article>
+
+      </div>
+
+      <!-- Let op: de game is nog niet verschenen -->
+      <div class="game-note">
+        <h3>&#128197; Nog niet verschenen</h3>
+        <p>
+          De game staat gepland voor het voorjaar van 2027. Nintendo heeft nog
+          geen exacte releasedatum, prijs of editie bekendgemaakt. De informatie
+          op deze pagina kan daarom nog veranderen.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================
+       NIEUWS: laatste updates
+       ======================================================== -->
+  <section id="nieuws" class="section">
+    <div class="container">
+
+      <div class="section-heading">
+        <h2>Laatste nieuws</h2>
+        <p>Blijf op de hoogte van de nieuwste ontwikkelingen.</p>
+      </div>
+
+      <div class="news-list">
+
+        <!-- Nieuwsbericht over de nog niet verschenen game -->
+        <article class="news-item">
+          <time datetime="2027-03">Voorjaar 2027</time>
+          <h3>Kirby and the World Beyond wordt released in het voorjaar van 2027</h3>
+          <p>De nieuwe 3D-Kirbygame komt exclusief uit voor de Nintendo Switch 2.</p>
+        </article>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       CONTACT: call-to-action en contactgegevens dik kan bet bij de faq pagina
+       ======================================================== -->
+  <!--
+  <section id="contact" class="cta">
+    <div class="container cta-inner">
+      <h2>Heb je nog vragen?</h2>
+      <p>hier kan je contact opnemen</p>
+      <a href="mailto:347050@student.mbouterecht.nl" class="btn btn-primary">Stuur een e-mail</a>
+    </div>
+  </section>
+-->
+  <!-- ========================================================
+       FOOTER: afsluitende informatie en links
+       ======================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Promotie-website. Alle rechten voorbehouden.</p>
+      <nav class="footer-nav" aria-label="Footer navigatie">
+          <li><a href="#placeholder" class="active">Home</a></li>
+          <li><a href="#placeholder">informatie</a></li>
+          <li><a href="#placeholder">media</a></li>
+          <li><a href="#placeholder">veel gestelde vragen</a></li>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
