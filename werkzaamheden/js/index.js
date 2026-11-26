@@ -26,7 +26,7 @@ document.querySelector("#loginForm").addEventListener("submit", function (event)
             isAdmin: true
         }));
 
-        window.location.href = "../html/voorpagina.html";
+        window.location.href = "../../voorpagina.html";
     }else {
         alert("Onjuiste gebruikersnaam of wachtwoord");
     }
